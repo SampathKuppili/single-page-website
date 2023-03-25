@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Mukta;
+  box-sizing: border-box;
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)),url(images/Hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8%;
+}
+.logo{
+  color: aqua;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  color: aqua;
+  transition: 0.8s;
+}
+.btn{
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+  font-weight: 400;
+  padding: 2px 25px;
+  border-radius: 50px;
+  transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: white;
+  font-size: 75px;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: rgb(149, 246, 246);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newslatter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 5px 15px 5px 15px;
+  border-color: aqua;
+  outline: none;
+  border-radius: 50px;
+
+}
+.newslatter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 50px;
+  background-color: aqua;
+  box-shadow: 0px 0px 3px rgb(255, 255, 255), 0px 0px 15px rgb(176, 248, 248);
+  top: 3px;
+  right: 1px;
+}
+.about_me{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+}
+.about_me img{
+  height: auto;
+  width: 430px;
+}
+.about_text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about_text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+}
+.about_text h5{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.about_text p{
+  color: rgb(231, 250, 250);
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+button{
+  background-color: aqua;
+  color: black;
+  font-weight: 500;
+  padding: 7px 40px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+button:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid aqua;
+  cursor: pointer;
+}
+
+.service{
+  background-color: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+    height: 430px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgba(68, 68, 68, 0.714);
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+  font-size: 40px;
+  color: aqua;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+}
+h5{
+  color: aqua;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.pra p{
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button{
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 7px 30px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+.card .button:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid aqua;
+  cursor: pointer;
+}
+
+.title_1 h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  text-align: center;
+}
+.my_skills{
+  background-color: black;
+  width: 100%;
+  padding: 100px 0;
+}
+.main_skill{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.progress_title{
+  width: 100%;
+  height: auto;
+}
+.progress_title .skill{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin: 0 0 0 20px;
+}
+.progress{
+  margin: 0 0 0 20px;
+  height: 20px;
+  background: rgb(18 18 18);
+  border-radius: 50px;
+  border: 1px solid #1f3131;
+  box-shadow: 0 2px 2px rgb(53 81 81);;
+  overflow: visible;
+  position: relative;
+}
+.progress .progress_bar{
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  animation: animate-positive 2s;
+}
+.progress .progress_value{
+  width: 65px;
+  height: 25px;
+  line-height: 24px;
+  background: #162222;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 0 0 15px 15px;
+  border: 1px solid #000;
+  border-top: none;
+  box-shadow: 0 2px 2px #4f4c4c;
+  position: absolute;
+  bottom: -25px;
+  right: 60px;
+  text-align: center;
+}
+
+.contact_me{
+  width: 100%;
+  height: 290px;
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_me p{
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact_me .button_2{
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 7px 30px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+.contact_me .button_2:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid aqua;
+  cursor: pointer;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+
+}
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aqua;
+  border-radius: 50%;
+  margin: 22px 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.social a:hover{
+  background-color: transparent;
+  border: none;
+  color: aqua;
+}
+.copy{
+  position: absolute;
+  color: white;
+  bottom: 35px;
+  font-size: 14px;
+}
